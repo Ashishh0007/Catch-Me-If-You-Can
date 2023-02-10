@@ -37,3 +37,31 @@ body {
     margin: 0;
     padding: 24px 32px;
 }
+
+
+#music-info {
+    margin-bottom: 80vh;
+    text-align: center;
+    font-size: 6vh;
+    color: white;
+    text-shadow: 0px 0px 20px white;
+}
+
+
+@keyframes texttransition {
+    0% {
+        transform: scale(1, 1);
+    }
+    50% {
+        transform: scale(1.5, 2);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+h3 {
+    animation-name: texttransition;
+    animation-duration: 1.5s;
+    animation-direction: alternate;
+}
